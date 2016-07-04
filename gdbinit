@@ -70,7 +70,7 @@
 # __________________gdb options_________________
 
 # set to 1 to have ARM target debugging as default, use the "arm" command to switch inside gdb
-set $ARM = 0
+set $ARM = 1
 # set to 0 if you have problems with the colorized prompt - reported by Plouj with Ubuntu gdb 7.2
 set $COLOREDPROMPT = 1
 # color the first line of the disassembly - default is green, if you want to change it search for
@@ -81,7 +81,7 @@ set $SHOWOBJECTIVEC = 1
 # set to 0 to remove display of cpu registers (default is 1)
 set $SHOWCPUREGISTERS = 1
 # set to 1 to enable display of stack (default is 0)
-set $SHOWSTACK = 0
+set $SHOWSTACK = 1
 # set to 1 to enable display of data window (default is 0)
 set $SHOWDATAWIN = 0
 # set to 0 to disable colored display of changed registers
@@ -93,7 +93,7 @@ set $SKIPEXECUTE = 0
 # 1 = use stepo (do not get into calls), 0 = use stepi (step into calls)
 set $SKIPSTEP = 1
 # show the ARM opcodes - change to 0 if you don't want such thing (in x/i command)
-set $ARMOPCODES = 1
+set $ARMOPCODES = 0
 # x86 disassembly flavor: 0 for Intel, 1 for AT&T
 set $X86FLAVOR = 0
 # use colorized output or not
